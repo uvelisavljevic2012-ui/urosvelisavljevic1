@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="sl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Uros Velisavljevic — Moj Svet</title>
+  <meta name="description" content="Uros Velisavljevic — učenec 8. razreda, ljubitelj glasbe in prihodnji glasbenik, ki sanja o potovanju po svetu." />
+  <meta name="keywords" content="Uros Velisavljevic, glasba, balkanska glasba, srednja glasbena šola, potovanja, osebna stran, učenec 8. razreda" />
+  <meta property="og:title" content="Uros Velisavljevic — Moj Svet" />
+  <meta property="og:description" content="Osebna spletna stran Uroša Velisavljevića — 8. razred, ljubitelj glasbe in sanjač, ki želi potovati po svetu." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://urosvelisavljevic.github.io/avatar.png" />
+  <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/7/7e/Music_icon.png" type="image/png" />
+  <style>
+    :root{--bg:#0f1724;--card:#0b1220;--accent:#7c3aed;--muted:#9aa4b2;--glass:rgba(255,255,255,0.06)}
+    *{box-sizing:border-box}
+    body{margin:0;font-family:Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; background:linear-gradient(180deg,#071027 0%, #071a2b 60%); color:#e6eef6}
+    .container{max-width:1000px;margin:40px auto;padding:28px}
+    header{display:flex;gap:20px;align-items:center}
+    .avatar{width:120px;height:120px;border-radius:14px;background:linear-gradient(135deg,var(--accent),#2dd4bf);display:flex;align-items:center;justify-content:center;font-size:44px;font-weight:800;color:#061426;box-shadow:0 8px 30px rgba(0,0,0,0.5)}
+    .hero h1{margin:0;font-size:28px}
+    .hero p{margin:.35rem 0;color:var(--muted)}
+
+    .grid{display:grid;grid-template-columns:1fr 340px;gap:22px;margin-top:20px}
+    .card{background:linear-gradient(180deg,var(--card), rgba(255,255,255,0.02));padding:18px;border-radius:12px;box-shadow:0 6px 20px rgba(2,6,23,0.6)}
+    .section-title{font-size:13px;color:var(--muted);text-transform:uppercase;letter-spacing:1px;margin-bottom:10px}
+    ul{margin:0;padding-left:18px}
+    .stats{display:flex;gap:12px}
+    .stat{background:var(--glass);padding:12px;border-radius:10px;text-align:center;flex:1}
+    footer{margin-top:26px;color:var(--muted);font-size:13px;text-align:center}
+    a.button{display:inline-block;margin-top:12px;padding:10px 14px;border-radius:10px;background:linear-gradient(90deg,var(--accent),#06b6d4);color:#041226;text-decoration:none;font-weight:700}
+    @media(max-width:820px){.grid{grid-template-columns:1fr;}.hero{padding-bottom:12px}}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="avatar">UV</div>
+      <div class="hero">
+        <h1>Uros Velisavljevic</h1>
+        <p>8. razred • 180 cm • Rad poslušam glasbo</p>
+        <p style="color:var(--muted);margin-top:6px">To je moja osebna spletna stran — nekaj izmišljenih podrobnosti dodanih za zabavo.</p>
+      </div>
+    </header>
+
+    <div class="grid">
+      <main class="card">
+        <div class="section">
+          <div class="section-title">O meni</div>
+          <p>Sem Uros, učenec 8. razreda, visok 180 cm. Po šoli rad poslušam glasbo — največkrat poslušam balkansko, alternativno in elektronsko glasbo. Včasih si ustvarjam tudi kratke playliste za vsak dan v tednu. Nimam skateboarda, ampak rad hodim na sprehode in poslušam glasbo.</p>
+        </div>
+
+        <div class="section" style="margin-top:16px">
+          <div class="section-title">Hobiji</div>
+          <ul>
+            <li>Poslušanje glasbe — še posebej balkanske in indie glasbe.</li>
+            <li>Osnovno programiranje — ustvaril sem majhen interaktivni kviz za razred.</li>
+            <li>Risanje stripov — najraje naredim eno-stranske šale o šoli in prijateljih.</li>
+          </ul>
+        </div>
+
+        <div class="section" style="margin-top:16px">
+          <div class="section-title">Najljubša glasba</div>
+          <p>Moja najljubša glasba je balkanska — rad imam pesmi, ki imajo močan ritem in dober vokal. Poleg tega poslušam tudi nekaj chill beatov in retro zvokov, odvisno od razpoloženja.</p>
+          <a class="button" href="#">Predvajaj mojo izmišljeno playlisto</a>
+        </div>
+
+        <div class="section" style="margin-top:16px">
+          <div class="section-title">Sanje in cilji</div>
+          <p>Po osnovni šoli si želim vpisati v srednjo glasbeno šolo, ker me zelo zanima ustvarjanje in razumevanje glasbe. Želim si izboljšati igranje in se naučiti snemanja ter miksanja pesmi.</p>
+          <p>Poleg tega sanjam o potovanju po svetu — rad bi obiskal različne države, spoznal nove kulture in poslušal lokalno glasbo, od uličnih glasbenikov do velikih koncertov.</p>
+        </div>
+      </main>
+
+      <aside class="card">
+        <div class="section-title">Hitri podatki</div>
+        <div class="stats" style="margin-top:8px">
+          <div class="stat">
+            <div style="font-size:20px;font-weight:700">8</div>
+            <div style="font-size:12px;color:var(--muted)">razred</div>
+          </div>
+          <div class="stat">
+            <div style="font-size:20px;font-weight:700">180 cm</div>
+            <div style="font-size:12px;color:var(--muted)">višina</div>
+          </div>
+        </div>
+
+        <div style="margin-top:14px">
+          <div class="section-title">Naj žanri</div>
+          <ul>
+            <li>Balkanska glasba</li>
+            <li>Alternativni rock</li>
+            <li>Elektronska glasba</li>
+          </ul>
+        </div>
+
+        <div style="margin-top:12px">
+          <div class="section-title">Kontakt (izmišljen)</div>
+          <p style="color:var(--muted);font-size:14px">E-mail: uros@example.si</p>
+        </div>
+
+        <div style="margin-top:14px;text-align:center">
+          <a class="button" href="#">Prenesi moj CV</a>
+        </div>
+      </aside>
+    </div>
+
+    <footer>
+      <p>© 2025 Uros Velisavljevic — Moj Svet • Za zabavo in učenje.</p>
+    </footer>
+  </div>
+</body>
+</html>
